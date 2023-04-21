@@ -1,4 +1,5 @@
 const Contacts = () => {
+    const newLocal = "mailto:drift2000@sined.pp.ua";
     return (
         <main className="section">
             <div className="container">
@@ -7,15 +8,15 @@ const Contacts = () => {
                 <ul className="content-list">
                     <li className="content-list__item">
                         <h2 className="title-2">Location</h2>
-                        <p>Moscow, Russia</p>
+                        <p>Kyiv, Ukraine</p>
                     </li>
                     <li className="content-list__item">
-                        <h2 className="title-2">Telegram / WhatsApp</h2>
-                        <p><a href="tel:+79051234567">+7 (905) 123-45-67</a></p>
+                        <h2 className="title-2">Telegram</h2>
+                        <p><a href="https://t.me/sined23" target="_blank" rel="noreferrer">@sined23</a></p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:webdev@protonmail.com">webdev@protonmail.com</a></p>
+                        <p><a href={newLocal}>drift2000@sined.pp.ua</a></p>
                     </li>
                 </ul>
 
